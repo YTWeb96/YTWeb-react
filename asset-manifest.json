@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/YTWeb-react/static/css/main.073c9b0a.css",
-    "main.js": "/YTWeb-react/static/js/main.c17b29d2.js",
+    "main.js": "/YTWeb-react/static/js/main.24e00b5b.js",
     "static/js/787.28a6cec6.chunk.js": "/YTWeb-react/static/js/787.28a6cec6.chunk.js",
     "index.html": "/YTWeb-react/index.html",
     "main.073c9b0a.css.map": "/YTWeb-react/static/css/main.073c9b0a.css.map",
-    "main.c17b29d2.js.map": "/YTWeb-react/static/js/main.c17b29d2.js.map",
+    "main.24e00b5b.js.map": "/YTWeb-react/static/js/main.24e00b5b.js.map",
     "787.28a6cec6.chunk.js.map": "/YTWeb-react/static/js/787.28a6cec6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.c17b29d2.js"
+    "static/js/main.24e00b5b.js"
   ]
 }
