@@ -1,23 +1,25 @@
-import logo from "./logo.svg";
+import { BrowserRouter as Router, Link } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 import "./App.css";
+import About from "./Pages/About";
+import Detail from "./Pages/Detail";
+import Main from "./Pages/Main";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Router basename={"/ytweb-react"}>
+        <div>
+          <Link to="/">Home</Link>
+          <Link to="/about">About</Link>
+          <Link to="/detail">Detail</Link>
+        </div>
+        <Routes>
+          <Route path={"/"} element={<Main />} exact />
+          <Route path={"/about"} element={<About />} exact />
+          <Route path={"/detail"} element={<Detail />} exact />
+        </Routes>
+      </Router>
     </div>
   );
 }
